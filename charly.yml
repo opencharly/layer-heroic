@@ -1,7 +1,7 @@
 version: 2026.232.0520
 heroic:
     candy:
-        version: 2026.144.1443
+        version: 2026.243.0851
         description: |
             Heroic Games Launcher (Epic/GOG/Amazon) on a Sway desktop with MangoHud and GameMode
             Installs the Heroic Games Launcher from its GitHub-release RPM
@@ -10,7 +10,7 @@ heroic:
             the Fedora repos. Heroic config, Wine/Proton tools, and game
             installs persist in the heroic-config and heroic-games volumes.
         require:
-            - '@github.com/opencharly/pod-sway:v2026.235.2110'
+            - '@github.com/opencharly/pod-sway:v2026.241.2004'
         distro:
             fedora:
                 package:
@@ -94,8 +94,8 @@ heroic-skill:
             # charly.yml — typically used with sway-desktop-vnc + steam
             sway-browser-vnc-steam-heroic:
               candy:
-                - '@github.com/opencharly/layer-sway-desktop-vnc:v2026.237.1056'
-                - '@github.com/opencharly/layer-steam:v2026.237.1055'
+                - '@github.com/opencharly/layer-sway-desktop-vnc:v2026.243.0846'
+                - '@github.com/opencharly/layer-steam:v2026.243.0507'
                 - heroic
             ```
             
