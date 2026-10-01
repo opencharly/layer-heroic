@@ -8,7 +8,7 @@ heroic:
             the Fedora repos. Heroic config, Wine/Proton tools, and game
             installs persist in the heroic-config and heroic-games volumes.
         require:
-            - '@github.com/opencharly/pod-sway:v2026.272.1053'
+            - '@github.com/opencharly/pod-sway:v2026.274.0642'
         distro:
             fedora:
                 package:
